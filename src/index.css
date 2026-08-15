@@ -1,0 +1,28 @@
+/* 전역 리셋 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* 접근성을 위한 포커스 스타일 */
+:focus-visible {
+  outline: 2px solid #6366f1;
+  outline-offset: 2px;
+}
+
+/* 선택 영역 스타일 */
+::selection {
+  background-color: #6366f1;
+  color: white;
+}
